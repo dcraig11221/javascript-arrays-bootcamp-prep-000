@@ -30,3 +30,8 @@ function removeElementFromBeginningOfArray(array) {
   array.shift()
   return array
 }
+
+function removeElementFromEndOfArray(array) {
+  array.pop()
+  return array
+}
